@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/utils.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/blogpost.css" />
+    <link rel="stylesheet" href="CSS/mobile.css">
+
+    <title>Anubhab's Blog-Post-Page</title>
+  </head>
+  <body>
+    <nav class="navigation max-width-1 m-auto">
+      <div class="nav-left">
+        <span>Logo.Here.Re</span>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="search.html">Search</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html">About</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <form action="search.html" method="get">
+          <input
+            class="form-input"
+            type="text"
+            placeholder="search-this-website"
+            name="query"
+          />
+          <button class="btn">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <hr class="max-width-1 m-auto" />
+
+    <div class="post-image">
+      <img src="img/blogpost_6.jpeg" alt="" />
+    </div>
+
+    <div class="blog-post-content m-auto max-width-2">
+      <h1 class="font2">Don’t become an entrepreneur</h1>
+      <div class="blog-post-meta-data">
+        <div class="author-info">
+          <div>Aytekin Tank</div>
+
+          <div>24th September, 2018</div>
+        </div>
+        <div class="social">
+          <a
+            href="https://www.facebook.com/"
+            style="text-decoration: none; margin-right: 10px"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="35"
+              height="35"
+              viewBox="0 0 172 172"
+              style="fill: #000000"
+            >
+              <g
+                fill="none"
+                fill-rule="nonzero"
+                stroke="none"
+                stroke-width="1"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray=""
+                stroke-dashoffset="0"
+                font-family="none"
+                font-weight="none"
+                font-size="none"
+                text-anchor="none"
+                style="mix-blend-mode: normal"
+              >
+                <path d="M0,172v-172h172v172z" fill="none"></path>
+                <g fill="#666666">
+                  <path
+                    d="M86,17.2c-37.9948,0 -68.8,30.8052 -68.8,68.8c0,34.49173 25.41013,62.97493 58.5144,67.95147v-49.71947h-17.02227v-18.08293h17.02227v-12.03427c0,-19.92333 9.70653,-28.66667 26.2644,-28.66667c7.9292,0 12.126,0.59053 14.10973,0.85427v15.78387h-11.29467c-7.02907,0 -9.48293,6.66787 -9.48293,14.17853v9.88427h20.59987l-2.79213,18.08293h-17.80773v49.8628c33.58013,-4.55227 59.48907,-33.2648 59.48907,-68.0948c0,-37.9948 -30.8052,-68.8 -68.8,-68.8z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </a>
+
+          <a
+            href="https://www.instagram.com/"
+            style="text-decoration: none; margin-left: 10px; margin-right: 10px"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="35"
+              height="35"
+              viewBox="0 0 172 172"
+              style="fill: #000000"
+            >
+              <g
+                fill="none"
+                fill-rule="nonzero"
+                stroke="none"
+                stroke-width="1"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray=""
+                stroke-dashoffset="0"
+                font-family="none"
+                font-weight="none"
+                font-size="none"
+                text-anchor="none"
+                style="mix-blend-mode: normal"
+              >
+                <path d="M0,172v-172h172v172z" fill="none"></path>
+                <g id="original-icon" fill="#666666">
+                  <path
+                    d="M57.99646,18.8125c-21.60481,0 -39.18396,17.58952 -39.18396,39.19971v55.98608c0,21.6075 17.58952,39.18921 39.19971,39.18921h55.98608c21.6075,0 39.18921,-17.58952 39.18921,-39.19971v-55.99133c0,-21.60481 -17.58952,-39.18396 -39.19971,-39.18396zM126.3125,40.3125c2.967,0 5.375,2.408 5.375,5.375c0,2.967 -2.408,5.375 -5.375,5.375c-2.967,0 -5.375,-2.408 -5.375,-5.375c0,-2.967 2.408,-5.375 5.375,-5.375zM86,51.0625c19.26938,0 34.9375,15.66812 34.9375,34.9375c0,19.26938 -15.67081,34.9375 -34.9375,34.9375c-19.26938,0 -34.9375,-15.67081 -34.9375,-34.9375c0,-19.26669 15.66812,-34.9375 34.9375,-34.9375zM86,61.8125c-13.35956,0 -24.1875,10.82794 -24.1875,24.1875c0,13.35956 10.82794,24.1875 24.1875,24.1875c13.35956,0 24.1875,-10.82794 24.1875,-24.1875c0,-13.35956 -10.82794,-24.1875 -24.1875,-24.1875z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/"
+            style="text-decoration: none; margin-left: 10px"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="35"
+              height="35"
+              viewBox="0 0 172 172"
+              style="fill: #000000"
+            >
+              <g
+                fill="none"
+                fill-rule="nonzero"
+                stroke="none"
+                stroke-width="1"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray=""
+                stroke-dashoffset="0"
+                font-family="none"
+                font-weight="none"
+                font-size="none"
+                text-anchor="none"
+                style="mix-blend-mode: normal"
+              >
+                <path d="M0,172v-172h172v172z" fill="none"></path>
+                <g fill="#666666">
+                  <path
+                    d="M137.6,22.93333h-103.2c-6.33533,0 -11.46667,5.13133 -11.46667,11.46667v103.2c0,6.33533 5.13133,11.46667 11.46667,11.46667h103.2c6.33533,0 11.46667,-5.13133 11.46667,-11.46667v-103.2c0,-6.33533 -5.13133,-11.46667 -11.46667,-11.46667zM62.80293,126.13333h-16.91333v-54.4208h16.91333zM54.17427,63.9324c-5.4524,0 -9.86133,-4.4204 -9.86133,-9.86133c0,-5.44093 4.41467,-9.8556 9.86133,-9.8556c5.4352,0 9.8556,4.4204 9.8556,9.8556c0,5.44093 -4.4204,9.86133 -9.8556,9.86133zM126.15627,126.13333h-16.90187v-26.46507c0,-6.3124 -0.11467,-14.4308 -8.7892,-14.4308c-8.80067,0 -10.15373,6.87427 -10.15373,13.97213v26.92373h-16.90187v-54.4208h16.22533v7.43613h0.22933c2.25893,-4.27707 7.7744,-8.7892 16.00173,-8.7892c17.12547,0 20.29027,11.27173 20.29027,25.92613z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- I am putting all the contents Here -->
+      <div class="blog-post-text">
+          <p>
+            <span class="upper-letter s">S</span>arah has worked at
+            <em class="markup--em markup--p-em">Guardian Technologies</em> for
+            nearly a decade now. She started out her career at the company as an
+            entry-level sales associate and has since worked her way up to a
+            sales executive.
+          </p>
+          <p>
+            She makes well over $100,000 a year, loves her team, her company and
+            her life as a whole.
+          </p>
+          <p>
+            When her more entrepreneurial friends poke fun at her for being a
+            “nine-to-fiver” or “not dreaming big enough” she doesn’t mind. In
+            fact, she finds it amusing.
+          </p>
+          <p>
+            She deeply respects her friend’s drive to build the next Apple or
+            Facebook… but she couldn’t be happier with her job and her life.
+          </p>
+          <p>
+            She gets nights and weekends off as she watches her friends spend
+            most of their “free time” working.
+          </p>
+          <p>
+            During her late twenties, she has been able to cross countless
+            destinations off her travel bucket list with a hefty 4-weeks worth
+            of vacation each year, while her friends have been locked up in
+            their apartments building and rebuilding and then rebuilding some
+            more after that.
+          </p>
+          <p>
+            Not to mention… when she hits her bonuses… she makes more than them
+            combined. <em>But, who is counting?</em>
+          </p>
+          <h3>
+            <strong
+              >Let’s have a candid conversation about entrepreneurship vs.
+              “employee-ship”.</strong
+            >
+          </h3>
+          <p>
+            I want to begin by saying the dream to become an entrepreneur isn’t
+            a silly one… not in the least.
+          </p>
+          <p>
+            After all,
+            <a
+              href="https://www.jotform.com/blog/being-successful-by-not-following-your-dreams/"
+              target="_blank"
+              rel="noreferrer noopener"
+              >I chose that path for myself</a
+            >
+            and that decision has allowed me to build
+            <a
+              href="https://www.jotform.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              >Jotform</a
+            >
+            to almost 4 million users over the last 12 years… and it has given
+            me the chance to work
+            <a
+              href="https://www.jotform.com/blog/attract-talent-build-culture/"
+              target="_blank"
+              rel="noreferrer noopener"
+              >with a team of incredible people</a
+            >… <strong>a team of incredible <em>employees</em></strong
+            >.
+          </p>
+          <p>
+            However, I would be remiss if I didn’t say the dream to become an
+            “employee” isn’t a silly one either. In fact, there is a great deal
+            of me that would argue it’s a better one for some people.
+          </p>
+          <blockquote class="wp-block-quote">
+            <p>
+              Help build an already established company (vs. lose sleep over
+              thinking of all the entrepreneurial risks you&nbsp;took)?
+            </p>
+          </blockquote>
+          <blockquote class="wp-block-quote">
+            <p>
+              Earn a hefty salary (vs. worry how on earth you’ll be able take
+              care of your family for the rest of your&nbsp;life)?
+            </p>
+          </blockquote>
+          <blockquote class="wp-block-quote">
+            <p>
+              Have the chance to one day move up the ranks (vs. embrace a
+              completely uncertain future)?
+            </p>
+          </blockquote>
+          <blockquote class="wp-block-quote">
+            <p>
+              Enjoy paid time off and other benefits (vs. burn yourself out in a
+              culture that celebrates
+              <a
+                href="https://www.jotform.com/blog/stop-that-80-hour-hustle/"
+                target="_blank"
+                rel="noreferrer noopener"
+                >the 80-hour&nbsp;hustle</a
+              >)?
+            </p>
+          </blockquote>
+          <p><em>Where do I sign up?</em></p>
+          <p>
+            <strong
+              >Unfortunately, in the twenty-first century,
+              “<em>employee-ship</em>”</strong
+            >
+            seemed to have gotten a bad rap, all of a sudden being a
+            “9–5&#8217;er” became uncool… that aspiring to work for a company
+            versus build one of your own somehow makes you small-minded,
+            unmotivated or a follower. I totally disagree.
+          </p>
+          <p>
+            The story about Sarah above (her name and the companies name have
+            been changed for privacy purposes) highlights some of the benefits
+            employees get to enjoy that most entrepreneurs don’t… until they
+            “make it” (or <strong><em>if</em></strong> they ever make it).
+          </p>
+          <p>
+            While I’m not naive to think that Sarah’s experience is every
+            employee’s experience, hitting a home run and selling your company
+            for a billion dollars isn’t every entrepreneur’s experience either —
+            <a
+              href="https://techcrunch.com/2012/04/09/facebook-to-acquire-instagram-for-1-billion/"
+              target="_blank"
+              rel="nofollow noopener"
+              >just a select few unicorns like Instagram</a
+            >.
+          </p>
+          <p>
+            We need to talk more about
+            <a
+              href="https://www.jotform.com/blog/disease-of-more/"
+              target="_blank"
+              rel="noreferrer noopener"
+              >the real cost of entrepreneurship</a
+            >
+            and our worrying “<a
+              href="https://www.jotform.com/blog/the-power-of-doing-nothing-at-all/"
+              target="_blank"
+              rel="noreferrer noopener"
+              ><em>Hustle until the haters ask if you’re hiring</em></a
+            >” mentality.
+          </p>
+          <h3>
+            <strong
+              >Entrepreneurship doesn’t always lead to happiness, flexibility,
+              wealth and notoriety.</strong
+            >
+          </h3>
+      
+          <p>
+            “I’ll be happy when”… is a thought that has ironically caused much
+            unhappiness for men and women chasing anything in this world.
+          </p>
+          <p>
+            We find ourselves running after something — marriage, kids, a bigger
+            house, a nicer car — and when we finally catch the thing we’re
+            chasing, we find ourselves still feeling a bit empty.
+          </p>
+          <p>
+            In psychology, this concept is called “<a
+              href="https://www.thesimpledollar.com/the-focusing-illusion/"
+              target="_blank"
+              rel="nofollow noopener"
+              >focusing illusion</a
+            >”, it’s a cognitive bias where people place too much emphasis on a
+            future event and as a result inaccurately predict the reality of the
+            event.
+          </p>
+          <p>
+            Think about a time you’ve told yourself a story about a goal or
+            dream you were going after and in your head it looked like a fairy
+            tale… but once you actually achieved the goal or dream the reality
+            was far less epic.
+          </p>
+          <p><em>That’s focusing illusion.</em></p>
+          <p>
+            In “<a
+              href="https://www.jotform.com/blog/setting-big-goals/"
+              target="_blank"
+              rel="noreferrer noopener"
+              >Why setting big goals can make you miserable</a
+            >”, I explained it using the concept of “post-marathon syndrome”, a
+            well-documented state of sadness, worthlessness and letdown. It’s a
+            natural human reaction.
+          </p>
+          <p>
+            Many aspiring entrepreneurs suffer from such a psychological
+            phenomenon. They tell themselves stories of what life as an
+            entrepreneur will be like… but once they actually live the life of
+            an entrepreneur they discover the reality is anything but.
+          </p>
+          <p>
+            Often times, these stories come in the form of “I’ll be happy when…”
+          </p>
+          <blockquote class="wp-block-quote">
+            <p><em>I’ll be happy when</em>… I start a business.</p>
+          </blockquote>
+          <blockquote class="wp-block-quote">
+            <p>
+              <em>I will be happy when</em>… I am making $100,000 a year from my
+              business.
+            </p>
+          </blockquote>
+          <blockquote class="wp-block-quote">
+            <p>
+              <em>I will be happy when</em>… I sell my business and become a
+              milllionaire.
+            </p>
+          </blockquote>
+          <blockquote class="wp-block-quote">
+            <p><em>I will be happy when</em>… [fill in the&nbsp;blank].</p>
+          </blockquote>
+          <p>
+            One story aspiring entrepreneurs tell themselves is that they will
+            be happy when they find some of the many myths associated with
+            entrepreneurship — <em>flexibility, wealth, notoriety, etc.</em>
+          </p>
+          <p>
+            But, from my own experience as an entrepreneur, these illusions
+            aren’t discovered or achieved through entrepreneurship:
+          </p>
+          <ul>
+            <li>
+              <strong
+                >I will be happy when I have more <em>Flexibility</em> as an
+                entrepreneur</strong
+              >
+              — my life hasn’t become more flexible after building Jotform (and
+              it wasn’t
+              <a
+                href="https://www.jotform.com/blog/hire-slowly-grow-slowly/"
+                target="_blank"
+                rel="noreferrer noopener"
+                >anything close to flexible during the first ten or so years</a
+              >
+              while building it). After 12 years, my responsibility today is
+              only bigger…
+              <a
+                href="https://www.jotform.com/blog/better-decision-making-mini-guide/"
+                target="_blank"
+                rel="noreferrer noopener"
+                >managing</a
+              >,
+              <a
+                href="https://www.jotform.com/blog/startup-employee-retention/"
+                target="_blank"
+                rel="noreferrer noopener"
+                >hiring</a
+              >,
+              <a
+                href="https://www.jotform.com/blog/developing-products-for-32m-users/"
+                target="_blank"
+                rel="noreferrer noopener"
+                >strategizing</a
+              >
+              and worrying.
+            </li>
+          </ul>
+          <blockquote class="wp-block-quote">
+            <p>
+              If, as an entrepreneur, you’re working 40 hours a week and
+              “worrying” an additional 40 hours outside of work… is your life
+              truly flexible?
+            </p>
+          </blockquote>
+          <ul>
+            <li>
+              <strong
+                >I will be happy when I have greater <em>Wealth</em> as an
+                entrepreneur</strong
+              >
+              — while Jotform has been a modest success for myself and my team,
+              for every modest entrepreneurial success,
+              <a
+                href="https://www.jotform.com/blog/everything-learned-about-failure/"
+                target="_blank"
+                rel="noreferrer noopener"
+                >there are thousands of failures</a
+              >. And, regardless of the Cinderella stories you hear in the
+              media, the reality of entrepreneurial failure is anything but a
+              fairy tale. There’s nothing poetic about going tens of thousands
+              of dollars in debt because your dream didn’t take off. Where it
+              concerns entrepreneurship, I would argue that wealth isn’t
+              something that should be expected…
+              <em>I’d argue it’s a rare exception. </em>In fact,
+              <a
+                href="https://www.sokanu.com/careers/entrepreneur/salary/"
+                target="_blank"
+                rel="nofollow noopener"
+                >according to this study</a
+              >, the average entrepreneur makes roughly $5/ hour starting out
+              and established entrepreneurs make $62/ hour. Yes, that’s good
+              money, but far from being a millionaire.
+            </li>
+            <li>
+              <strong
+                >I will be happy when I have more <em>Notoriety</em> as an
+                entrepreneur</strong
+              >
+              — another misconception of entrepreneurship is that it leads to
+              notoriety or fame. While yes, some entrepreneurs like Musk and
+              Zuckerberg are celebrated like rock stars, most of us go
+              completely unnoticed. Instead of trying to make it to a magazine
+              cover,
+              <a
+                href="https://www.jotform.com/blog/dominating-tech-news/"
+                target="_blank"
+                rel="noreferrer noopener"
+                >I choose picking olives and spending quality time with my
+                family</a
+              >.
+            </li>
+          </ul>
+          <p>
+            So, when you truly look at flexibility, wealth and notoriety… you
+            realize that entrepreneurship isn’t necessarily the best path to
+            take to achieve these things.
+          </p>
+          <p>
+            Entrepreneurship isn’t for everyone. Just because it’s cool or you
+            are born to become an entrepreneur doesn’t mean your friends should
+            become one.
+          </p>
+          <p>
+            If you want more flexibility, you might as well work for a
+            remote-friendly company. If you seek wealth, you might as well make
+            money working in real estate, sales or investment banking.
+          </p>
+          <p>
+            While there’s nothing wrong with these things, they can’t
+            necessarily be found through entrepreneurship… or at least it’s not
+            the easiest path to find them.
+          </p>
+          <p>
+            Before making the choice to become an entrepreneur (or an employee
+            for that matter), we can ask ourselves what will truly make us happy
+            and be extremely realistic with ourselves… because it might just be
+            <em>focusing illusion</em> getting the better of us.
+          </p>
+    
+
+        <!--kg-card-end: html-->
+      </div>
+    </div>
+    <hr class="max-width-1 m-auto" style="margin-top: 200px" />
+
+    <div
+      class="home-articles max-width-1 m-auto font2"
+      style="margin-top: 100px"
+    >
+      <h2>People who read this also read :</h2>
+      <div class="row-like">
+        <div class="home-article font1 column-like">
+          <div class="home-article-img">
+            <img src="img/thumbnail_7.jpg" alt="article7" style="margin-left: 0;" />
+          </div>
+          <div class="home-article-content">
+            <a href="blogpost_7.html">
+              <h3>Reframing The narrative on ENTREPRENEURSHIP</h3>
+            </a>
+            <div>GARY VAYNERCHUK</div>
+            <div>20th December, 2017 | 18 min read</div>
+          </div>
+        </div>
+
+        <div class="home-article font1 column-like">
+          <div class="home-article-img">
+            <img src="img/thumbnail_8.jpg" alt="article8" style="margin-left: 0;"/>
+          </div>
+          <div class="home-article-content">
+            <a href="blogpost_8.html">
+              <h3>
+                Good and Bad Reasons to Become an Entrepreneur
+              </h3>
+            </a>
+            <div>Dustin Moskovitz</div>
+            <div>14th August, 2013 | 15 min read</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer m-auto">
+      <p>Copyright &copy; Anubhab's Blog</p>
+      <a href="https://www.vecteezy.com/free-vector/typewriter"
+        >Vector credits : Vecteezy
+      </a>
+    </div>
+
+    <!-- <script src="https://kit.fontawesome.com/36b9677629.js" crossorigin="anonymous"></script> -->
+  </body>
+</html>
