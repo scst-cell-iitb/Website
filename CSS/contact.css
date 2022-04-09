@@ -1,0 +1,29 @@
+.contact-content {
+    height: 100vh;
+    
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    margin-top: 0rem;
+    padding: 0 0;
+    position: relative;
+  }
+  
+  .contact-content::after{
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: inherit;
+    background-image: url(../img/article3.jpg);
+    background-repeat:no-repeat;
+    
+    z-index: 1;
+    box-shadow: 0px 0 50px 70px white inset;
+    opacity: 0.2;
+    
+    border-radius: 25%;
+    right: 0vw;
+  }
+  
+  .contact-content > *{
+    z-index: 100;
+  }

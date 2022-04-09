@@ -1,0 +1,103 @@
+
+
+.post-image {
+  height: 300px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.post-image img {
+  width: 100vw;
+  /* box-shadow: 0px 0 50px 70px white inset; */
+  opacity: 0.5;
+}
+
+.blog-post-content {
+  /* background-color: blue;
+  color: white;      */
+
+}
+
+.blog-post-content h1 {
+  text-align: center;
+  color: gray;
+  margin: 50px;
+  font-size: 50px;
+  font-weight: 300;
+ 
+}
+
+
+
+
+.row-like{
+    display: flex;
+    justify-content: space-around;
+}
+
+.column-like{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    text-align: center;
+}
+
+.blog-post-meta-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family:'Times New Roman', Times, serif;
+    
+    font-weight: bolder;
+    margin: 20px 0px;
+    color: gray;
+    font-size: 20px;
+
+}
+
+.author-info div{
+    padding:2.5px 0 ;
+}
+.author-info div:nth-child(2){
+    font-size: 17.5px;
+    font-style: italic;
+}
+
+
+.blog-post-text{
+  margin-top: 50px;
+  font-family: var(--font1);
+  font-size: 20px;
+  color: gray;
+
+}
+
+.blog-post-text h2{
+  margin: 20px;
+  color: var(--dark-gray);
+}
+
+.blog-post-text ul{
+  margin: 50px;
+  color: gray;
+}
+
+.blog-post-text ol{
+  margin: 50px;
+  color: gray;
+}
+
+.blog-post-text a{
+  color: var(--my-teal);
+}
+
+.blog-post-text p{
+  margin-top: 20px;
+}
+
+.wp-block-quote{
+  margin-left: 20px;
+  font-family: var(--font2);
+  color: var(--my-teal);
+  font-style: italic;
+  margin-bottom: 20px;
+}
